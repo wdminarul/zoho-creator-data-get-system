@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Data From Widget</title>
+    <script src="https://js.zohostatic.com/creator/widgets/version/1.0/widgetsdk-min.js"></script>
+    <style>
+      .main-table{
+        border-collapse: collapse;
+        border: 2px solid #000;
+        width: 95%;
+        margin: 0 auto;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .table-heading th{
+        border: 2px solid #000;
+        padding: 10px;
+        text-align: center;
+        background-color: dodgerblue;
+        color: #fff;
+      }
+      .document-name{
+        width: 40%;
+      }
+      .document-type{
+        width: 20%;
+      }
+      .file{
+        width: 40%;
+      }
+      .td{
+        padding: 10px;
+        color: aliceblue;
+        border: 2px solid #000;
+        text-align: center;
+        background-color: rgb(124, 186, 248);
+      }
+    </style>
+</head>
+<body>
+    <table class="main-table">
+        <thead class="table-heading">
+            <th class="document-name">Document Name</th>
+            <th class="document-type">Type</th>
+            <th class="file">File</th>
+        </thead>
+        <tbody class="table-body" id="document-data">
+
+        </tbody>
+    </table>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
+</html>
